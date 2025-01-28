@@ -126,7 +126,7 @@ const CustomTooltip: React.FC<CustomTooltipProps> = ({ active, payload }) => {
           )}
         </p>
 
-        <div className="py-2 border-b">
+        {/* <div className="py-2 border-b">
           <p className="text-sm text-muted-foreground">
             Night: {data.night ? "Yes" : "No"}
           </p>
@@ -136,7 +136,7 @@ const CustomTooltip: React.FC<CustomTooltipProps> = ({ active, payload }) => {
           <p className="text-sm text-muted-foreground">
             Morning: {data.morning ? "Yes" : "No"}
           </p>
-        </div>
+        </div> */}
 
         {data.description && (
           <div className="pt-2">

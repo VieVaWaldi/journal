@@ -16,7 +16,8 @@ interface DurationOption {
 
 const durationOptions: DurationOption[] = [
   { label: "7 Days", value: 8, interval: 1 },
-  { label: "30 Days", value: 31, interval: 3 },
+  { label: "14 Days", value: 15, interval: 1 },
+  { label: "28 Days", value: 29, interval: 3 },
   { label: "All Time", value: null, interval: 8 },
 ];
 

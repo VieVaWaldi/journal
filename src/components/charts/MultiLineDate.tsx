@@ -28,8 +28,8 @@ interface SleepSchedule {
 interface JournalEntry {
   date: Date | string;
   sleepSchedule: SleepSchedule;
-  description?: string | null; // Updated to accept both undefined and null
-  feelings?: string | null; // Updated for consistency
+  description?: string | null;
+  feelings?: string | null;
 }
 
 interface ChartDataPoint {
